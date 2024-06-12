@@ -1,0 +1,26 @@
+{
+  "name": "docker_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js --watch",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@redis/json": "^1.0.6",
+    "dotenv": "^16.4.5",
+    "envalid": "^8.0.0",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.8",
+    "redis": "^4.6.14"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.1"
+  }
+}
